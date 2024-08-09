@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Comic Book";
+    src: url("mask.ttf") format("truetype");
+  }
+
+body{
+    color:ghostwhite;
+    background: rgba(15, 0, 35, 1);
+    margin: 0px;
+
+    margin-bottom: 75px;
+    
+}
+
+header {
+    border-left:solid 2px rgba(70, 70, 70, 1);
+    border-bottom:solid 2px rgba(70, 70, 70, 1);
+    padding: 20px;
+    font-size:32px;
+    font-family: "Nabla", system-ui;
+    }
+    .section1{
+        background: rgb(3, 124, 240);
+        padding-bottom: 80px;
+        padding-left: 80px;
+        display: flex;
+        justify-content: center;
+        font-family: "Comic Book";
+        font-size: 36px;
+    }
+.TextVideo{
+    margin-right: 5%;
+}
+h1{
+    font-size: 36px;
+    background-color: rgb(255, 44, 44);
+    color: rgb(255, 255, 0);
+}
+
+p{
+    font-size: 15px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.section2{
+    font-family: "Nabla", system-ui;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25;
+}
+
+.OtherVideos img{
+    height: 200px;
+    opacity: 0.3;
+}
+.OtherVideos img:hover{
+    height: 250px;
+    opacity: 1.0;
+    border: 1px solid black;
+}
+
+.OtherVideos{
+    display:flex ;
+    gap: 15px;
+    justify-content: center;
+}
